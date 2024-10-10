@@ -1,0 +1,170 @@
+.front{
+    background: url("https://cdn.pixabay.com/photo/2018/06/12/20/17/soccer-3471402_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 916px;
+    width: 100%;
+    object-position: 50% 50%;
+    display: flex;
+    
+}
+.logo{
+    background-color: aquamarine;
+    height: 6rem;
+    width: 14rem;
+}
+.logo1{
+    height: 6rem;
+    width: 14rem;
+}
+.navbar{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+}
+.search{
+    height: 2rem;
+    width: 25rem;
+    position: absolute;
+    top: 0;
+    right: 150%;
+    margin-top: 1.45rem;
+    padding: 10px;
+}
+.search input{
+    height: 2rem;
+    width: 25rem;
+    border-radius: 20px;
+} 
+
+.navbar ul {
+    list-style: none;
+    margin-top: 1.5rem;
+    padding: 0;
+    word-spacing: 25px;
+}
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 15px;
+    color: white;
+}
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.socialLinks{
+    margin-top: 16rem;
+}
+.headline{
+    height: 25rem;
+    width: 40rem;
+    font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: normal;
+  color: whitesmoke;
+  margin-top: 15px;
+  margin-left: -100px;
+}
+.headline h1{
+    margin-top: 125px;
+    padding: 35px;
+}
+.register{
+    height: 5rem;
+}
+.register-btn{
+    text-align: center;
+    cursor: pointer;
+    height: 3rem; 
+    width: 15rem;
+    border-radius: 25px;
+    margin-top: 8rem;
+    margin-left: 155px;
+}
+summary{
+    display: flex;
+}
+.services{
+    height: 790px;
+    width: 50%;
+    background-color: rgba(222, 184, 135,0.4);
+}
+.Our-serv-header{
+    text-align: center;
+        font-family: "Kanit", sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        font-style: italic;
+}
+
+.Our-serv-para ul{
+   line-height: 80px;
+   font-family: "Kanit", sans-serif;
+   font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+}
+.sport-logo-div{
+    height: 790px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sports-log{
+    height: 240px;
+    width: 250px;
+}
+.sportlog{
+    height: 240px;
+    width: 250px;
+}
+section{
+    height: 2000px;
+    width: 100%;
+    background-color: blue;
+}
+.discover-inner{
+    height: 800px;
+    width: 1200px;
+    background-color: aqua;
+    margin: auto;
+    border-radius: 25px;
+}
+.discover-text{
+    height: 150px;
+    width: 800px;
+    display: flex;
+}
+.discover-text h2{
+    height: 100px;
+    width: 100%;
+    text-align:center;
+    
+}
+.discover-text .discover-text-side{
+   text-align:right; 
+}
+.venues-pics{
+    height: 300px;
+    width: 450px;
+    border-radius: 25px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.venues-pics img{
+    height: 300px;
+    width: 450px;
+    border-radius: 25px;
+}
